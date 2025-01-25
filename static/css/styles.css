@@ -1,0 +1,16 @@
+head {
+    background: chartreuse;
+}
+
+body {
+    margin-top: 20px;
+    background: #effcff;
+    font-family: "Segoe UI", system-ui, sans-serif;
+    font-size: 20px;
+}
+
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+}
