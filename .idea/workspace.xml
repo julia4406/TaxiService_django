@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d456dbd4-9eee-42b8-9579-1aa1e75f6843" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/taxi/car_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/taxi/car_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/taxi/driver_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/taxi/driver_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/taxi/manufacturer_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/logged_out.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cab2b6da-5e1c-4d9c-adb9-7e1559fdb79d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cab2b6da-5e1c-4d9c-adb9-7e1559fdb79d.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taxi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/taxi/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiService/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiService/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiService/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiService/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxiService/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiService/wsgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taxi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/taxi/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taxi_service_db_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/taxi_service_db_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/includes/pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/pagination.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/includes/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/taxi/driver_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/taxi/driver_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/taxi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/taxi/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737800069028</updated>
-      <workItem from="1737800069965" duration="7236000" />
+      <workItem from="1737800069965" duration="11692000" />
     </task>
     <servers />
   </component>

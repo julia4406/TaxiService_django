@@ -5,11 +5,15 @@
     <h4>Drivers</h4>
     <hr>
     <ul class="drivers-nav">
-    {% for item in driver_list %}
+    {% for driver in driver_list %}
       <li>
-        <a href="{% url 'taxi:driver-detail' item.id %}">
-          {{ item.username }}</a>
-          {{ item.first_name }} {{ item.last_name }} (license # {{ item.license_number }})
+        <a href="{% url 'taxi:driver-detail' driver.id %}">
+          {{ driver.username }}
+        </a>
+          {{ driver.first_name }} {{ driver.last_name }}
+          {% if driver == current_user %}
+            &nbsp;&nbsp;(Me)
+          {% endif %}
       </li>
     {% endfor %}
     </ul>
