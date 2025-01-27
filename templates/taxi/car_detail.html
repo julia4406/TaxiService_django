@@ -23,4 +23,18 @@
   {% else %}
   <p>Nobody choose this car.</p>
   {% endif %}
+
+  <!-- UPDATE/DELETE buttons -->
+   <br><br>
+  <div style="display: flex; gap: 20px;">
+    <a class="btn btn-primary"
+       href="{% url 'taxi:car-update' pk=car.id  %}">
+      UPDATE
+    </a>
+    <a class="btn btn-danger"
+       href="{% url 'taxi:car-delete' pk=car.id %}">
+      DELETE
+    </a>
+  </div>
+
 {% endblock %}

@@ -5,19 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d456dbd4-9eee-42b8-9579-1aa1e75f6843" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/registration/logged_out.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cab2b6da-5e1c-4d9c-adb9-7e1559fdb79d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cab2b6da-5e1c-4d9c-adb9-7e1559fdb79d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/taxi/car_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/taxi/car_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/taxi/manufacturer_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/taxi/manufacturer_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TaxiService/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiService/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiService/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiService/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiService/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiService/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taxi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/taxi/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taxi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/taxi/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taxi_service_db_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/taxi_service_db_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/includes/pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/pagination.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/includes/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/taxi/driver_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/taxi/driver_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/taxi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/taxi/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/taxi/car_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/taxi/car_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/taxi/car_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/taxi/car_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/taxi/manufacturer_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/taxi/manufacturer_list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +36,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2s7IDhHoOY8scsv8eYrdz24VDp2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,10 +49,13 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "Django Server.TaxiService.executor": "Run",
+    "Python.dots_and_boxes.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "django.template.preview.state": "SHOW_EDITOR",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/YA/projects/Mate_Python_Course/morning_and_other_side_tasks/dots_and_boxes.py",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,6 +69,36 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\YA\projects\Mate_Python_Course\DJANGO\TaxiService_example_django_project\templates" />
     </key>
+  </component>
+  <component name="RunManager" selected="Django Server.TaxiService">
+    <configuration name="dots_and_boxes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TaxiService_example_django_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../morning_and_other_side_tasks" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../morning_and_other_side_tasks/dots_and_boxes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.dots_and_boxes" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -84,11 +116,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737800069028</updated>
-      <workItem from="1737800069965" duration="11692000" />
+      <workItem from="1737800069965" duration="12706000" />
+      <workItem from="1737973098839" duration="11659000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TaxiService_example_django_project$dots_and_boxes.coverage" NAME="dots_and_boxes Coverage Results" MODIFIED="1737980002135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../morning_and_other_side_tasks" />
   </component>
 </project>
