@@ -8,21 +8,43 @@
     {{ car.manufacturer.country }}
   </h6>
   <br>
-  <h6><u>Owners:</u></h6>
-  {% if car.drivers.all %}
-  <ul>
-  {% for driver in car.drivers.all %}
-    <li>
-    <a href="{% url 'taxi:driver-detail' driver.id %}">
-      {{ driver.first_name }}
-      {{ driver.last_name }}
-    </a>
-    </li>
-  {% endfor %}
-  </ul>
-  {% else %}
-  <p>Nobody choose this car.</p>
-  {% endif %}
+<div style="display: flex; align-items: center; gap: 65%;">
+    <h1>Drivers</h1>
+
+    {% if user.is_authenticated %}
+    <form action="{% url 'taxi:assign-driver' pk=car.id %}" method="post">
+      {% csrf_token %}
+
+      {% if not user_is_owner %}
+        <button type="submit"
+           class="btn btn-success"
+           >
+          Assign me to this car
+        </button>
+      {% else %}
+        <button type="submit"
+           class="btn btn-danger"
+           >
+          Delete me from this car
+        </button>
+      {% endif %}
+
+    </form>
+    {% endif %}
+
+  </div>
+
+
+  <hr>
+     {% if car.drivers.all %}
+      <ul>
+        {% for driver in car.drivers.all %}
+          <li>{{ driver.username }} ({{ driver.first_name }} {{ driver.last_name }})</li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <p>Nobody choose this car.</p>
+      {% endif %}
 
   <!-- UPDATE/DELETE buttons -->
    <br><br>

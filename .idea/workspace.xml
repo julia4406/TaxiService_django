@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d456dbd4-9eee-42b8-9579-1aa1e75f6843" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/taxi/car_confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/taxi/car_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/taxi/manufacturer_confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/taxi/manufacturer_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taxi/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/taxi/driver_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/taxi/driver_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/taxi/license_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxiService/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TaxiService/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taxi/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/taxi/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taxi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/taxi/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taxi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/taxi/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/taxi/car_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/taxi/car_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/taxi/car_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/taxi/car_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/taxi/manufacturer_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/taxi/manufacturer_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/taxi/driver_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/taxi/driver_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/taxi/driver_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/taxi/driver_list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -45,26 +46,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Django Server.TaxiService.executor": "Run",
-    "Python.dots_and_boxes.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/YA/projects/Mate_Python_Course/morning_and_other_side_tasks/dots_and_boxes.py",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.TaxiService.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dots_and_boxes.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/YA/projects/Mate_Python_Course/DJANGO/TaxiService_example_django_project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.HTML&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\YA\projects\Mate_Python_Course\DJANGO\TaxiService_example_django_project\templates" />
@@ -117,7 +118,8 @@
       <option name="presentableId" value="Default" />
       <updated>1737800069028</updated>
       <workItem from="1737800069965" duration="12706000" />
-      <workItem from="1737973098839" duration="11659000" />
+      <workItem from="1737973098839" duration="12303000" />
+      <workItem from="1738099457251" duration="2590000" />
     </task>
     <servers />
   </component>
